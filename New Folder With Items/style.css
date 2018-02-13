@@ -1,0 +1,170 @@
+
+html{
+  height:100%;
+  width:100%;
+}
+
+@font-face {
+font-family: gs;
+src:url('../website/GeosansLight.ttf');
+}
+
+body{
+height: 100vh;
+width:auto;
+background-color: #E8E8E8 ;
+overflow-x: hidden;
+
+}
+header{
+background-color: white;
+width:100%;
+height:80px;
+margin-top: -15px;
+padding-left: 20px;
+border-bottom: 2px solid grey;
+}
+.logo{
+  background-image: url("logo.png");
+  background-position:left;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+nav{
+height:40px;
+width:100%;
+margin-left: 18%;
+list-style-type: none;
+padding-top: 20px;
+}
+.navbar{
+width:100%;
+opacity:0.7;
+filter:alpha (opacity=70);
+}
+nav ul li{
+    display:block;
+    list-style:none;
+    margin-left: 235px;
+    margin-top: 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 6px 24px;
+    color:black;
+    font-family:  Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    color: white;
+    border:5px 30px solid;
+    border-radius: 10px;
+    background-color: #800000;
+    opacity:0.5;
+    filter:alpha (opacity=50);
+}
+
+
+
+
+.container
+{
+    height: 75%;
+    min-height: 75%;
+    min-width: 100%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.first {
+    border-right:2px solid grey;
+    float: left;
+    width: 35%;
+    height: 80%;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+}
+.second{
+  border-left:2px solid grey;
+    float: right;
+    width: 35%;
+    height: 80%;
+    background-color: #FFFFFF ;
+    margin-top: 20px;
+}
+.third{
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    height: 80%;
+    background-color: #474d4f;
+}
+.p{
+  font-size: 30px;
+  margin: 3px;
+  border: solid 2px;
+  border-radius: 5px;
+}
+.last{
+    background-color: #474d4f;
+    border-top: 2px solid grey;
+    width:100%;
+    height: 31%;
+}
+#mc_embed_signup{
+  background:#FFFFFF;
+  clear:left;
+   font:22px Helvetica,Arial,sans-serif;
+   width:40%;
+   margin-left: 25%;
+   margin-top: 3%;
+ }
+ .clear{
+   margin-left: 10%;
+ }
+ .carousel {
+  /* any dimensions are fine, it can be responsive with max-width */
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner {
+  /* make sure your .items will get correct height */
+  height: 100%;
+}
+
+.item {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+textarea {
+    color:inherit;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px #000;
+    border: 2px solid transparent;
+     resize: none;
+}
+footer{
+  //*clear: both;
+      position: relative;
+      margin-top: -50px;
+      z-index: 10;
+      height: 3em;
+      margin-top: -3em;*//
+    background-color: #aec6cf;
+    height: 60px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 30px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+
+}
